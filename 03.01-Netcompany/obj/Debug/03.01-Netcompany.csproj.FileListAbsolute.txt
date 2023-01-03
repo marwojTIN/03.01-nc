@@ -1,0 +1,11 @@
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\bin\Debug\03.01-Netcompany.exe.config
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\bin\Debug\03.01-Netcompany.exe
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\bin\Debug\03.01-Netcompany.pdb
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\bin\Debug\nunit.framework.dll
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\bin\Debug\nunit.framework.xml
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\obj\Debug\03.01-Netcompany.csproj.AssemblyReference.cache
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\obj\Debug\03.01-Netcompany.csproj.SuggestedBindingRedirects.cache
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\obj\Debug\03.01-Netcompany.csproj.CoreCompileInputs.cache
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\obj\Debug\03.01-Netcompany.csproj.CopyComplete
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\obj\Debug\03.01-Netcompany.exe
+C:\Users\wojk\source\repos\03.01-Netcompany\03.01-Netcompany\obj\Debug\03.01-Netcompany.pdb
