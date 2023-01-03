@@ -80,5 +80,36 @@ namespace _03._01_TestsProject
         {
             return Tasks.ReverseCase(str);
         }
+
+        [Test]
+        [TestCase(32, 8, ExpectedResult = 8)]
+        [TestCase(8, 12, ExpectedResult = 4)]
+        [TestCase(17, 13, ExpectedResult = 1)]
+        [TestCase(14, 7, ExpectedResult = 7)]
+        [TestCase(32, 16, ExpectedResult = 16)]
+        [TestCase(17, 100, ExpectedResult = 1)]
+        [TestCase(55, 20, ExpectedResult = 5)]
+        [TestCase(55, 22, ExpectedResult = 11)]
+        public static int gcd(int n1, int n2)
+        {
+            return Tasks.gcd(n1, n2);
+        }
+
+        [Test]
+        [TestCase("4556364607935616", ExpectedResult = "############5616")]
+        [TestCase("64607935616", ExpectedResult = "#######5616")]
+        [TestCase("1", ExpectedResult = "1")]
+        [TestCase("", ExpectedResult = "")]
+        [TestCase("tBy>L/cMe+?<j:6n;C~H", ExpectedResult = "################;C~H")]
+        [TestCase("12", ExpectedResult = "12")]
+        [TestCase("8Ikhlf6yoxPOwi5cB014eWbRumj7vJ", ExpectedResult = "##########################j7vJ")]
+        [TestCase("123", ExpectedResult = "123")]
+        [TestCase(")E$aCU=e\"_", ExpectedResult = "######=e\"_")]
+        [TestCase("2673951408", ExpectedResult = "######1408")]
+        [TestCase("1234", ExpectedResult = "1234")]
+        public static string MaskifyTests(string str)
+        {
+            return Tasks.Maskify(str);
+        }
     }
 }

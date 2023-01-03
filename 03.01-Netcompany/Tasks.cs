@@ -57,5 +57,29 @@ namespace _03._01_Netcompany
             return reversed;
         }
 
+        public static int gcd(int n1, int n2)
+        {
+            if (n2 == 0)
+            {
+                return n1;
+            }
+            else
+            {
+                return gcd(n1, n2%n1);
+            }
+        }
+
+        public static string Maskify(string str)
+        {
+            char[] chars = str.ToCharArray();
+
+            for (int i = 0; i < chars.Length - 4; i++)
+            {
+                chars[i] = '#';
+            }
+
+            return new string(chars);
+        }
+
     }
 }
